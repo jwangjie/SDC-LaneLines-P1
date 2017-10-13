@@ -34,7 +34,7 @@ After installing [Anaconda](https://www.anaconda.com/download/), I got totally c
 
 **Step 2:** Open the code in a Jupyter Notebook
 
-Everything worked fine until "Click on the file called 'P1.ipynb'." We don't even have the "P1.ipynb" in the "CarND Term1 Starter Kit". Got the answer immediately from the forum: [How and where do I write the code for the Term1Project1](https://discussions.udacity.com/t/how-and-where-do-i-write-the-code-for-the-term1project1/388155). Quoted from the reply of subodh.malgonde (Forum Mentor): "You actually need to setup your environment using the starter kit. Just downloading the starter kit won’t be sufficient. Once you set up the environment you need to clone this github repository - CarND-LaneLines-P1. You will editing and running your code in something in the file P1.ipynb. The extension .ipynb stands for iPython notebook. You will be using Jupyter notebook to open/edit/run this file." So, steps summarized as:
+Everything worked fine until "Click on the file called 'P1.ipynb'". We don't even have the "P1.ipynb" in the "CarND Term1 Starter Kit". Got the answer immediately from the forum: [How and where do I write the code for the Term1Project1](https://discussions.udacity.com/t/how-and-where-do-i-write-the-code-for-the-term1project1/388155). Quoted from the reply of subodh.malgonde (Forum Mentor): "You actually need to setup your environment using the starter kit. Just downloading the starter kit won’t be sufficient. Once you set up the environment you need to clone this github repository - CarND-LaneLines-P1. You will editing and running your code in something in the file P1.ipynb. The extension .ipynb stands for iPython notebook. You will be using Jupyter notebook to open/edit/run this file." So, steps summarized as:
 
 1. Open "Git CMD", clone the environment by pasting "git clone https://github.com/udacity/CarND-LaneLines-P1.git" 
 2. Open "Anaconda Prompt", navigate to the "CarND-LaneLines-P1"folder by using "cd CarND-LaneLines-P1" 
@@ -43,8 +43,14 @@ Everything worked fine until "Click on the file called 'P1.ipynb'." We don't eve
 
 A hint for people with non-CS background: "cd" is a command used to change the current directory (i.e., the directory in which the user is currently working) to the directory you would like to go. Thus, you can clone package to wherever location you prefer by first change directory in "Git CMD". Then, you also need to change the directory in "Anaconda Prompt". 
 
-**Step 3:** Complete the project and submit both the Ipython notebook and the project writeup
+**Step 3:** Test on Videos
+In the [P1.ipynb](https://github.com/udacity/CarND-LaneLines-P1/blob/master/P1.ipynb), when started to "Test on Videos", I got errors as stated:  
+```
+NeedDownloadError: Need ffmpeg exe. 
+You can download it by calling: 
+imageio.plugins.ffmpeg.download()
+```
+I followed the answer in [Project: error of Test on Videos](https://discussions.udacity.com/t/project-error-of-test-on-videos/274082), then [this post](https://stackoverflow.com/questions/41402550/raise-needdownloaderrorneed-ffmpeg-exe-needdownloaderror-need-ffmpeg-exe). One answer was verifed to work: 
 
-## How to write a README
-A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
-
+1. Manual download [ffmpg](https://github.com/imageio/imageio-binaries/blob/master/ffmpeg/ffmpeg-win32-v3.2.4.exe)
+2. In your lib\site-packages\imageio\plugins\ffmpeg.py file, change exe = get_remote_file('ffmpeg/' + FNAME_PER_PLATFORM[plat], auto=False) to exe = "YOUR_PATH_WITH_FFMPG\\ffmpeg.win32.exe" 
