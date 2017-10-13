@@ -26,12 +26,11 @@ The miniconda never installed properly using the provided link, so I downed the 
 
 After installing [Anaconda](https://www.anaconda.com/download/), I got totally confused to the following instructions. I did some search and found a guy with similar difficulties: [The Anaconda installation guide is so confusing](https://discussions.udacity.com/t/the-anaconda-installation-guide-is-so-confusing/312695). Based on the answers and my own trial and error, I summarized the following steps: 
 
-1. Install the [Git](https://git-scm.com/downloads), open "Git CMD", clone the environment by pasting "git clone https://github.com/udacity/CarND-Term1-Starter-Kit.git" 
-
+1. Install the [Git](https://git-scm.com/downloads), open "Git CMD", clone the environment by pasting "git clone https://github.com/udacity/CarND-Term1-Starter-Kit.git"  
 2. Open "Anaconda Prompt", navigate to the "CarND-Term1-Starter-Kit"folder by using "cd CarND-Term1-Starter-Kit" 
-Set up the environment using "conda env create -f environment.yml" in "Anaconda Prompt"
-Verify that the carnd-term1 environment was created in your environments by using "conda info --envs" in "Anaconda Prompt"
-Activate the environment by using "activate carnd-term1". This MUST be done each time you begin a new working session i.e. open a new terminal window. 
+3. Set up the environment using "conda env create -f environment.yml" in "Anaconda Prompt"
+4. Verify that the carnd-term1 environment was created in your environments by using "conda info --envs" in "Anaconda Prompt"
+5. Activate the environment by using "activate carnd-term1". This MUST be done each time you begin a new working session i.e. open a new terminal window. 
 
 **Step 2:** Open the code in a Jupyter Notebook
 
