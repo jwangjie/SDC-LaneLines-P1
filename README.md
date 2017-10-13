@@ -34,13 +34,14 @@ After installing [Anaconda](https://www.anaconda.com/download/), I got totally c
 
 **Step 2:** Open the code in a Jupyter Notebook
 
-You will complete the project code in a Jupyter notebook.  If you are unfamiliar with Jupyter Notebooks, check out <A HREF="https://www.packtpub.com/books/content/basics-jupyter-notebook-and-python" target="_blank">Cyrille Rossant's Basics of Jupyter Notebook and Python</A> to get started.
+Everything worked fine until "Click on the file called 'P1.ipynb'." We don't even have the "P1.ipynb" in the "CarND Term1 Starter Kit". Got the answer immediately from the forum: [How and where do I write the code for the Term1Project1](https://discussions.udacity.com/t/how-and-where-do-i-write-the-code-for-the-term1project1/388155). Quoted from the reply of subodh.malgonde (Forum Mentor): "You actually need to setup your environment using the starter kit. Just downloading the starter kit won’t be sufficient. Once you set up the environment you need to clone this github repository - CarND-LaneLines-P1. You will editing and running your code in something in the file P1.ipynb. The extension .ipynb stands for iPython notebook. You will be using Jupyter notebook to open/edit/run this file." So, steps summarized as:
 
-Jupyter is an Ipython notebook where you can run blocks of code and see results interactively.  All the code for this project is contained in a Jupyter notebook. To start Jupyter in your browser, use terminal to navigate to your project directory and then run the following command at the terminal prompt (be sure you've activated your Python 3 carnd-term1 environment as described in the [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/README.md) installation instructions!):
+1. Open "Git CMD", clone the environment by pasting "git clone https://github.com/udacity/CarND-LaneLines-P1.git" 
+2. Open "Anaconda Prompt", navigate to the "CarND-LaneLines-P1"folder by using "cd CarND-LaneLines-P1" 
+3. Activate the environment by using "activate carnd-term1". 
+4. Open jupyter notebook by "jupyter notebook". Follow the instructions to open jupyter notebook in your browser. 
 
-`> jupyter notebook`
-
-A browser window will appear showing the contents of the current directory.  Click on the file called "P1.ipynb".  Another browser window will appear displaying the notebook.  Follow the instructions in the notebook to complete the project.  
+A hint for people with non-CS background: "cd" is a command used to change the current directory (i.e., the directory in which the user is currently working) to the directory you would like to go. Thus, you can clone package to wherever location you prefer by first change directory in "Git CMD". Then, you also need to change the directory in "Anaconda Prompt". 
 
 **Step 3:** Complete the project and submit both the Ipython notebook and the project writeup
 
