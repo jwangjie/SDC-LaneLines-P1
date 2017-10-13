@@ -9,7 +9,7 @@ This is the first project of the Udacity "Self-Driving Car" Nanoprogram. In this
 Usage Instruction
 ---
 
-The project requirement can be found at [CarND-LaneLines-P1](https://github.com/udacity/CarND-LaneLines-P1). For my package, the folders are test and output images and videos: [solidWhiteRight.mp4](https://www.youtube.com/watch?v=ZqoLk4JHO7Y&list=PLKZsN6T-bc0avfBON7t6g9R70T2f4AuCn&index=1) and [solidYellowLeft.mp4](https://www.youtube.com/watch?v=Tua2K579PuA&list=PLKZsN6T-bc0avfBON7t6g9R70T2f4AuCn&index=2). [P1.ipynb](https://github.com/jwangjie/SDC-LaneLines-P1/blob/master/P1.ipynb) is the final notebook file, [P1_first.ipynb](https://github.com/jwangjie/SDC-LaneLines-P1/blob/master/P1_first.ipynb) is the techniques review and first attempt, and [P1_second.ipynb](https://github.com/jwangjie/SDC-LaneLines-P1/blob/master/P1_second.ipynb) is the images test only and the second attempt. 
+The project requirement can be found at [CarND-LaneLines-P1](https://github.com/udacity/CarND-LaneLines-P1). For my package, the folders are test and output images and videos: [solidWhiteRight.mp4](https://www.youtube.com/watch?v=ZqoLk4JHO7Y&list=PLKZsN6T-bc0avfBON7t6g9R70T2f4AuCn&index=1) and [solidYellowLeft.mp4](https://www.youtube.com/watch?v=Tua2K579PuA&list=PLKZsN6T-bc0avfBON7t6g9R70T2f4AuCn&index=2) . [P1.ipynb](https://github.com/jwangjie/SDC-LaneLines-P1/blob/master/P1.ipynb) is the final notebook file, [P1_first.ipynb](https://github.com/jwangjie/SDC-LaneLines-P1/blob/master/P1_first.ipynb) is the techniques review and first attempt, and [P1_second.ipynb](https://github.com/jwangjie/SDC-LaneLines-P1/blob/master/P1_second.ipynb) is the images test only and the second attempt. 
 
 Reflection 
 ---
