@@ -4,7 +4,12 @@
 Overview
 ---
 
-This is the first project of the Udacity "Self-Driving Car" Nanoprogram. In this project you are required to detect lane lines in images using Python 3 and OpenCV. I learned a lot as a roboticist with Mechanical Engineering background. This document will cover a quick reflection of the project, and solutions for software setting issues. 
+This is the first project of the Udacity "Self-Driving Car" Nanoprogram. In this project you are required to detect lane lines in images using Python 3 and OpenCV. I learned a lot as a roboticist with Mechanical Engineering background. This document will cover the usage instruction, a quick reflection of the project, and solutions for software setting issues. 
+
+Usage Instruction
+---
+
+The project requirement can be found at [CarND-LaneLines-P1](https://github.com/udacity/CarND-LaneLines-P1). For my package, the folders are test and output images and videos. [P1.ipynb](https://github.com/jwangjie/SDC-LaneLines-P1/blob/master/P1.ipynb) is the final notebook file, [P1_first.ipynb](https://github.com/jwangjie/SDC-LaneLines-P1/blob/master/P1_first.ipynb) is the techniques review and first attempt, and [P1_second.ipynb](https://github.com/jwangjie/SDC-LaneLines-P1/blob/master/P1_second.ipynb) is the images test only and the second attempt. 
 
 Reflection 
 ---
