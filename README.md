@@ -15,7 +15,7 @@ The built pipeline works fine for straight white and yellow line detections, but
 
 In order to work for the curved and steep road lane detections, more advanced and adaptive region of interest selection technique need to be applied. 
 
-Technical Setting Issues
+Software Setting Issues
 ---
 
 This section cover solutions for the software settings problems I met before I started programming. All solutions are for Windows. 
@@ -24,7 +24,7 @@ This section cover solutions for the software settings problems I met before I s
 
 The miniconda never installed properly using the provided link, so I downed the full version of [Anaconda](https://www.anaconda.com/download/). The Udacity course [Anaconda and Jupyter Notebooks](https://classroom.udacity.com/courses/ud1111) is useful for quick review, you got the basic feeling about went through the materials. 
 
-After installing [Anaconda](https://www.anaconda.com/download/), I got totally confused to the following instructions. I did some search and found a guy with similar difficulties: [The Anaconda installation guide is so confusing](https://discussions.udacity.com/t/the-anaconda-installation-guide-is-so-confusing/312695). Based on the answers and my own trial and error, I summarized the following steps: 
+After installing [Anaconda](https://www.anaconda.com/download/), I got totally confused by the following instructions. I did some search and found a guy with similar difficulties: [The Anaconda installation guide is so confusing](https://discussions.udacity.com/t/the-anaconda-installation-guide-is-so-confusing/312695). Based on the answers and my own trial and error, I summarized the following steps: 
 
 1. Install the [Git](https://git-scm.com/downloads), open "Git CMD", clone the environment by pasting "git clone https://github.com/udacity/CarND-Term1-Starter-Kit.git"  
 2. Open "Anaconda Prompt", navigate to the "CarND-Term1-Starter-Kit"folder by using "cd CarND-Term1-Starter-Kit" 
@@ -34,7 +34,7 @@ After installing [Anaconda](https://www.anaconda.com/download/), I got totally c
 
 **Step 2:** Open the code in a Jupyter Notebook
 
-Everything worked fine until "Click on the file called 'P1.ipynb'". We don't even have the "P1.ipynb" in the "CarND Term1 Starter Kit". Got the answer immediately from the forum: [How and where do I write the code for the Term1Project1](https://discussions.udacity.com/t/how-and-where-do-i-write-the-code-for-the-term1project1/388155). Quoted from the reply of subodh.malgonde (Forum Mentor): "You actually need to setup your environment using the starter kit. Just downloading the starter kit won’t be sufficient. Once you set up the environment you need to clone this github repository - CarND-LaneLines-P1. You will editing and running your code in something in the file P1.ipynb. The extension .ipynb stands for iPython notebook. You will be using Jupyter notebook to open/edit/run this file." So, steps summarized as:
+Everything worked fine until "Click on the file called 'P1.ipynb'". We don't even have the "P1.ipynb" in the "CarND Term1 Starter Kit". Got the answer immediately from the forum: [How and where do I write the code for the Term1Project1](https://discussions.udacity.com/t/how-and-where-do-i-write-the-code-for-the-term1project1/388155). Quoted from the reply of subodh.malgonde (Forum Mentor): "You actually need to setup your environment using the starter kit. Just downloading the starter kit won’t be sufficient. Once you set up the environment you need to clone this GitHub repository - CarND-LaneLines-P1. You will editing and running your code in something in the file P1.ipynb. The extension .ipynb stands for iPython notebook. You will be using Jupyter notebook to open/edit/run this file." So, steps summarized as:
 
 1. Open "Git CMD", clone the environment by pasting "git clone https://github.com/udacity/CarND-LaneLines-P1.git" 
 2. Open "Anaconda Prompt", navigate to the "CarND-LaneLines-P1"folder by using "cd CarND-LaneLines-P1" 
