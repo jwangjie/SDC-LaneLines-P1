@@ -53,4 +53,4 @@ imageio.plugins.ffmpeg.download()
 I followed the answer in [Project: error of Test on Videos](https://discussions.udacity.com/t/project-error-of-test-on-videos/274082), then [this post](https://stackoverflow.com/questions/41402550/raise-needdownloaderrorneed-ffmpeg-exe-needdownloaderror-need-ffmpeg-exe). One answer was verifed to work: 
 
 1. Manual download [ffmpg](https://github.com/imageio/imageio-binaries/blob/master/ffmpeg/ffmpeg-win32-v3.2.4.exe)
-2. In your lib\site-packages\imageio\plugins\ffmpeg.py file, change exe = get_remote_file('ffmpeg/' + FNAME_PER_PLATFORM[plat], auto=False) to exe = "YOUR_PATH_WITH_FFMPG\\ffmpeg.win32.exe" 
+2. In your  lib\site-packages\imageio\plugins\ffmpeg.py  file, change  exe = get_remote_file('ffmpeg/' + FNAME_PER_PLATFORM[plat], auto=False)  to  exe = "YOUR_PATH_WITH_FFMPG\\ffmpeg.win32.exe" 
