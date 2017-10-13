@@ -4,7 +4,7 @@
 Overview
 ---
 
-This is the first project of the Udacity "Self-Driving Car" Nanoprogram. In this project you are required to detect lane lines in images using Python 3 and OpenCV. I learned a lot as a robotisist with Mechanical Engineering background. This document will cover a quick reflection of the project, and tips for solving both technical and software setting issues. 
+This is the first project of the Udacity "Self-Driving Car" Nanoprogram. In this project you are required to detect lane lines in images using Python 3 and OpenCV. I learned a lot as a roboticist with Mechanical Engineering background. This document will cover a quick reflection of the project, and solutions for software setting issues. 
 
 Reflection 
 ---
